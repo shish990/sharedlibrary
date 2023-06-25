@@ -1,3 +1,3 @@
-def call() {
-  sh 'echo Hi From DevOps Team'
+def call(string name, string dayOfweek) {
+  sh 'echo Hi ${name} From DevOps Team ${dayOfweek}'
 }
